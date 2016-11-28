@@ -1,0 +1,686 @@
+{
+  "TransmissionAck": {
+    "-xmlns": "http://xmlns.oracle.com/apps/otm",
+    "EchoedTransmissionHeader": {
+      "TransmissionHeader": {
+        "QueryReplyFormat": "true",
+        "SenderHostName": "VI",
+        "StopProcessOnError": "true",
+        "Refnum": {
+          "RefnumQualifierGid": {
+            "Gid": {
+              "DomainName": "TPS",
+              "Xid": "ECID"
+            }
+          },
+          "RefnumValue": "2d3fff94-34b7-44fa-86f5-373c9d52daba-000014a8"
+        }
+      }
+    },
+    "TransmissionAckStatus": "SUCCESS",
+    "QueryResultInfo": {
+      "GLogXMLElement": {
+        "ProcessInfo": {
+          "ProcessSequence": "1"
+        },
+        "PlannedShipment": {
+          "Shipment": {
+            "ShipmentHeader": {
+              "ShipmentGid": {
+                "Gid": {
+                  "DomainName": "TPS",
+                  "Xid": "037000423900303"
+                }
+              },
+              "ShipmentRefnum": [
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "ORIGIN_RAMP"
+                    }
+                  },
+                  "ShipmentRefnumValue": "ERAIL - ERAIL"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "DESTINATION_RAMP"
+                    }
+                  },
+                  "ShipmentRefnumValue": "LOSAN - LOS ANGELES"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "RAIL_BILL_DATE"
+                    }
+                  },
+                  "ShipmentRefnumValue": "20160225101113"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "RAIL_BILL_ACKNOWLEDGEMENT_DATE"
+                    }
+                  },
+                  "ShipmentRefnumValue": "20160225111215"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "RAIL_PICKUP_NUMBER"
+                    }
+                  },
+                  "ShipmentRefnumValue": "TEST RELEASE / RAIL PICKUP"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "AppointmentNumber",
+                      "Xid": "010"
+                    }
+                  },
+                  "ShipmentRefnumValue": "43212"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "BMBillOfLadingNumber",
+                      "Xid": "013"
+                    }
+                  },
+                  "ShipmentRefnumValue": "123456789"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "BookingNumber",
+                      "Xid": "003"
+                    }
+                  },
+                  "ShipmentRefnumValue": "1234567"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "CustomerReferenceNumber",
+                      "Xid": "005"
+                    }
+                  },
+                  "ShipmentRefnumValue": "TEST CUST REF"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "DeliveryOrderNumber",
+                      "Xid": "001"
+                    }
+                  },
+                  "ShipmentRefnumValue": "TEST DELIVERY ORDER 700042390"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "PickupReferenceNumber",
+                      "Xid": "015"
+                    }
+                  },
+                  "ShipmentRefnumValue": "PICKUP REFERENCE TEST 12345"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "ReleaseNumber",
+                      "Xid": "007"
+                    }
+                  },
+                  "ShipmentRefnumValue": "TEST RELEASE / RAIL PICKUP"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "017"
+                    }
+                  },
+                  "ShipmentRefnumValue": "TEST SEAL 123"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "ShippersOrder",
+                      "Xid": "018"
+                    }
+                  },
+                  "ShipmentRefnumValue": "123456"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TheftDeterrentDeviceNumber",
+                      "Xid": "019"
+                    }
+                  },
+                  "ShipmentRefnumValue": "123456"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "VendorOrderNumber",
+                      "Xid": "012"
+                    }
+                  },
+                  "ShipmentRefnumValue": "243234"
+                }
+              ],
+              "TransactionCode": "NP",
+              "InternalShipmentStatus": {
+                "StatusTypeGid": {
+                  "Gid": {
+                    "DomainName": "TPS",
+                    "Xid": "DRIVER_SHIPMENT_STATUS"
+                  }
+                },
+                "StatusValueGid": {
+                  "Gid": {
+                    "DomainName": "TPS",
+                    "Xid": "ASSIGNED"
+                  }
+                }
+              },
+              "TotalWeightVolume": {
+                "WeightVolume": {
+                  "Weight": {
+                    "WeightValue": "400",
+                    "WeightUOMGid": {
+                      "Gid": {
+                        "DomainName": "TPS",
+                        "Xid": "POUNDS"
+                      }
+                    }
+                  },
+                  "Volume": {
+                    "VolumeUOMGid": {
+                      "Gid": {
+                        "DomainName": "TPS"
+                      }
+                    }
+                  }
+                }
+              },
+              "TotalShipUnitCount": "1",
+              "TotalPackagedItemCount": "40",
+              "InvolvedParty": {
+                "InvolvedPartyQualifierGid": {
+                  "Gid": {
+                    "DomainName": "TPS",
+                    "Xid": "SHIPPER"
+                  }
+                },
+                "InvolvedPartyLocationRef": {
+                  "LocationRef": {
+                    "Location": {
+                      "TransactionCode": "NP",
+                      "LocationGid": {
+                        "Gid": {
+                          "DomainName": "TPS"
+                        }
+                      },
+                      "LocationName": "ROMEO & JULIETTE",
+                      "Address": {
+                        "AddressLine2": "2211 E CARSON ST",
+                        "City": "CARSON",
+                        "Province": "CALIFORNIA",
+                        "ProvinceCode": "CA",
+                        "PostalCode": "908101227",
+                        "CountryCode3Gid": {
+                          "Gid": {
+                            "DomainName": "TPS",
+                            "Xid": "USA"
+                          }
+                        }
+                      },
+                      "Contact": {
+                        "ContactGid": {
+                          "Gid": {
+                            "DomainName": "TPS"
+                          }
+                        },
+                        "CompanyName": "ROMEO & JULIETTE"
+                      }
+                    }
+                  }
+                }
+              },
+              "ShipmentSpecialService": {
+                "SpecialServiceGid": {
+                  "Gid": {
+                    "DomainName": "TPS",
+                    "Xid": "DROP"
+                  }
+                }
+              },
+              "Remark": [
+                {
+                  "RemarkQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "SEGMENT_TYPE"
+                    }
+                  },
+                  "RemarkText": "ODR"
+                },
+                {
+                  "RemarkQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "DISPATCH_REMARKS"
+                    }
+                  },
+                  "RemarkText": "*HIGH SECURITY LOAD - DO NOT LEAVE TRAILER UNATTENDED* Eqp Loc: SOUTH WINDSOR - FEDE, 301 GOVERNORS HWY, SOUTH WINDSOR,  CT"
+                }
+              ],
+              "VoyageGid": {
+                "Gid": {
+                  "DomainName": "TPS"
+                }
+              },
+              "BookingInfo": {
+                "RailDt": {
+                  "GLogDate": "20160519000000"
+                }
+              },
+              "DriverGid": {
+                "Gid": {
+                  "DomainName": "TPS",
+                  "Xid": "1077"
+                }
+              }
+            },
+            "SEquipment": {
+              "SEquipmentGid": {
+                "Gid": {
+                  "DomainName": "TPS",
+                  "Xid": "UPHU900005"
+                }
+              },
+              "Equipment": {
+                "EquipmentGid": {
+                  "Gid": {
+                    "DomainName": "TPS",
+                    "Xid": "UPHU900005"
+                  }
+                },
+                "TransactionCode": "NP",
+                "EquipmentAttribute": [
+                  {
+                    "EquipmentAttributeQualifierGid": {
+                      "Gid": {
+                        "DomainName": "TPS",
+                        "Xid": "GPS_ENABLED"
+                      }
+                    },
+                    "EquipmentAttributeValue": "FALSE"
+                  },
+                  {
+                    "EquipmentAttributeQualifierGid": {
+                      "Gid": {
+                        "DomainName": "TPS",
+                        "Xid": "LATITUDE"
+                      }
+                    },
+                    "EquipmentAttributeValue": "41.8324023"
+                  },
+                  {
+                    "EquipmentAttributeQualifierGid": {
+                      "Gid": {
+                        "DomainName": "TPS",
+                        "Xid": "LONGITUDE"
+                      }
+                    },
+                    "EquipmentAttributeValue": "-72.6035614"
+                  }
+                ]
+              },
+              "EquipmentType": {
+                "EquipmentTypeGid": {
+                  "Gid": {
+                    "DomainName": "TPS",
+                    "Xid": "CONTAINER"
+                  }
+                },
+                "ExteriorLWH": {
+                  "Length": {
+                    "LengthValue": "53.00",
+                    "LengthUOMGid": {
+                      "Gid": {
+                        "DomainName": "TPS",
+                        "Xid": "FEET"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "ShipmentStop": [
+              {
+                "StopSequence": "1",
+                "ExtStopSequence": "1",
+                "LocationRef": {
+                  "Location": {
+                    "TransactionCode": "NP",
+                    "LocationGid": {
+                      "Gid": {
+                        "DomainName": "TPS",
+                        "Xid": "SOUTH WINDSOR - FEDERATED"
+                      }
+                    },
+                    "LocationName": "SOUTH WINDSOR - FEDERATED",
+                    "Address": {
+                      "AddressLine2": "301 GOVERNORS HWY",
+                      "City": "SOUTH WINDSOR",
+                      "Province": "CONNECTICUT",
+                      "ProvinceCode": "CT",
+                      "PostalCode": "060742474",
+                      "CountryCode3Gid": {
+                        "Gid": {
+                          "DomainName": "TPS",
+                          "Xid": "USA"
+                        }
+                      },
+                      "Latitude": "41.8324023",
+                      "Longitude": "-72.6035614"
+                    },
+                    "Contact": {
+                      "ContactGid": {
+                        "Gid": {
+                          "DomainName": "TPS",
+                          "Xid": "860-282-3016"
+                        }
+                      }
+                    }
+                  }
+                },
+                "VoyageGid": {
+                  "Gid": {
+                    "DomainName": "TPS"
+                  }
+                },
+                "ShipmentStopDetail": {
+                  "Activity": "P",
+                  "ShipUnitGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "1"
+                    }
+                  }
+                },
+                "Refnum": [
+                  {
+                    "RefnumQualifierGid": {
+                      "Gid": {
+                        "DomainName": "BMBillOfLadingNumber",
+                        "Xid": "020"
+                      }
+                    },
+                    "RefnumValue": "BILL OF LADING 656"
+                  },
+                  {
+                    "RefnumQualifierGid": {
+                      "Gid": {
+                        "DomainName": "CarriersReferenceNumberProInvoice",
+                        "Xid": "022"
+                      }
+                    },
+                    "RefnumValue": "CARRIER PRO-987658"
+                  },
+                  {
+                    "RefnumQualifierGid": {
+                      "Gid": {
+                        "DomainName": "DeliveryOrderNumber",
+                        "Xid": "004"
+                      }
+                    },
+                    "RefnumValue": "700042390 TEST STOP REF"
+                  },
+                  {
+                    "RefnumQualifierGid": {
+                      "Gid": {
+                        "DomainName": "SealNumber",
+                        "Xid": "009"
+                      }
+                    },
+                    "RefnumValue": "UDAYS TEST STOP SEAL NUMBER"
+                  },
+                  {
+                    "RefnumQualifierGid": {
+                      "Gid": {
+                        "DomainName": "WaybillNumber",
+                        "Xid": "021"
+                      }
+                    },
+                    "RefnumValue": "WAYBILL-456-987657"
+                  },
+                  {
+                    "RefnumQualifierGid": {
+                      "Gid": {
+                        "DomainName": "TheftDeterrentDeviceNumber",
+                        "Xid": "000"
+                      }
+                    },
+                    "RefnumValue": "123456"
+                  }
+                ],
+                "Remark": {
+                  "RemarkQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "DISPATCH_REMARKS"
+                    }
+                  },
+                  "RemarkText": "*HIGH SECURITY LOAD - STOP REMARK!! STOP 1 REMARK 2!!!"
+                },
+                "Appointment": {
+                  "AppointmentInfo": {
+                    "LocationResourceGid": {
+                      "Gid": {
+                        "DomainName": "TPS"
+                      }
+                    },
+                    "StartTime": {
+                      "GLogDate": "20160519103000"
+                    },
+                    "EndTime": {
+                      "GLogDate": "20160519140000"
+                    }
+                  }
+                },
+                "StopType": "PICKUP"
+              },
+              {
+                "StopSequence": "3",
+                "ExtStopSequence": "2",
+                "LocationRef": {
+                  "Location": {
+                    "TransactionCode": "NP",
+                    "LocationGid": {
+                      "Gid": {
+                        "DomainName": "TPS",
+                        "Xid": "NORFOLK SOUTHERN RAILWAY COMPA"
+                      }
+                    },
+                    "LocationName": "NORFOLK SOUTHERN RAILWAY COMPA",
+                    "Address": {
+                      "AddressLine2": "322 3RD ST",
+                      "City": "ELIZABETH",
+                      "Province": "NEW JERSEY",
+                      "ProvinceCode": "NJ",
+                      "PostalCode": "072062007",
+                      "CountryCode3Gid": {
+                        "Gid": {
+                          "DomainName": "TPS",
+                          "Xid": "USA"
+                        }
+                      },
+                      "Latitude": "40.6593839",
+                      "Longitude": "-74.1808044"
+                    },
+                    "Contact": {
+                      "ContactGid": {
+                        "Gid": {
+                          "DomainName": "TPS"
+                        }
+                      }
+                    }
+                  }
+                },
+                "VoyageGid": {
+                  "Gid": {
+                    "DomainName": "TPS"
+                  }
+                },
+                "ShipmentStopDetail": {
+                  "Activity": "D",
+                  "ShipUnitGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "3"
+                    }
+                  }
+                },
+                "Refnum": [
+                  {
+                    "RefnumQualifierGid": {
+                      "Gid": {
+                        "DomainName": "SealNumber",
+                        "Xid": "000"
+                      }
+                    },
+                    "RefnumValue": "TEST SEAL 123"
+                  },
+                  {
+                    "RefnumQualifierGid": {
+                      "Gid": {
+                        "DomainName": "BMBillOfLadingNumber",
+                        "Xid": "000"
+                      }
+                    },
+                    "RefnumValue": "123456789"
+                  },
+                  {
+                    "RefnumQualifierGid": {
+                      "Gid": {
+                        "DomainName": "TheftDeterrentDeviceNumber",
+                        "Xid": "000"
+                      }
+                    },
+                    "RefnumValue": "123456"
+                  }
+                ],
+                "Appointment": {
+                  "AppointmentInfo": {
+                    "LocationResourceGid": {
+                      "Gid": {
+                        "DomainName": "TPS"
+                      }
+                    },
+                    "StartTime": {},
+                    "EndTime": {}
+                  }
+                },
+                "StopType": "DELIVERY"
+              }
+            ],
+            "SShipUnit": [
+              {
+                "TransactionCode": "NP",
+                "ShipUnit": {
+                  "ShipUnitGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "1"
+                    }
+                  },
+                  "WeightVolume": {
+                    "Weight": {
+                      "WeightValue": "200",
+                      "WeightUOMGid": {
+                        "Gid": {
+                          "DomainName": "TPS",
+                          "Xid": "POUNDS"
+                        }
+                      }
+                    },
+                    "Volume": {
+                      "VolumeUOMGid": {
+                        "Gid": {
+                          "DomainName": "TPS"
+                        }
+                      }
+                    }
+                  },
+                  "ShipUnitContent": {
+                    "PackagedItemSpecCount": "20"
+                  },
+                  "FlexCommodityQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "2541184"
+                    }
+                  },
+                  "FlexCommodityValue": "SHELVING WOODEN",
+                  "ShipUnitCount": "20"
+                }
+              },
+              {
+                "TransactionCode": "NP",
+                "ShipUnit": {
+                  "ShipUnitGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "3"
+                    }
+                  },
+                  "WeightVolume": {
+                    "Weight": {
+                      "WeightValue": "200",
+                      "WeightUOMGid": {
+                        "Gid": {
+                          "DomainName": "TPS",
+                          "Xid": "POUNDS"
+                        }
+                      }
+                    },
+                    "Volume": {
+                      "VolumeUOMGid": {
+                        "Gid": {
+                          "DomainName": "TPS"
+                        }
+                      }
+                    }
+                  },
+                  "ShipUnitContent": {
+                    "PackagedItemSpecCount": "20"
+                  },
+                  "FlexCommodityQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "2541184"
+                    }
+                  },
+                  "FlexCommodityValue": "SHELVING WOODEN",
+                  "ShipUnitCount": "20"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,718 @@
+{
+  "TransmissionAck1": {
+    "-xmlns": "http://xmlns.oracle.com/apps/otm",
+    "EchoedTransmissionHeader": {
+      "TransmissionHeader": {
+        "QueryReplyFormat": "true",
+        "SenderHostName": "VI",
+        "StopProcessOnError": "true",
+        "Refnum": {
+          "RefnumQualifierGid": {
+            "Gid": {
+              "DomainName": "TPS",
+              "Xid": "ECID"
+            }
+          },
+          "RefnumValue": "2d3fff94-34b7-44fa-86f5-373c9d52daba-000014a8"
+        }
+      }
+    },
+    "TransmissionAckStatus": "SUCCESS",
+    "QueryResultInfo": {
+      "GLogXMLElement": {
+        "ProcessInfo": { "ProcessSequence": "1" },
+        "PlannedShipment": {
+          "Shipment": {
+            "ShipmentHeader": {
+              "ShipmentGid": {
+                "Gid": {
+                  "DomainName": "TPS",
+                  "Xid": "019003240990201"
+                }
+              },
+              "ShipmentRefnum": [
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "ORIGIN_RAMP"
+                    }
+                  },
+                  "ShipmentRefnumValue": "CALYD - CALUMET YARD"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "DESTINATION_RAMP"
+                    }
+                  },
+                  "ShipmentRefnumValue": "AUS11 - AUSTELL"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "RAIL_BILL_DATE"
+                    }
+                  },
+                  "ShipmentRefnumValue": "20160527165057"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "RAIL_BILL_ACKNOWLEDGEMENT_DATE"
+                    }
+                  },
+                  "ShipmentRefnumValue": "00010101000000"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "RAIL_PICKUP_NUMBER"
+                    }
+                  }
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "BMBillOfLadingNumber",
+                      "Xid": "001"
+                    }
+                  },
+                  "ShipmentRefnumValue": "985"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "007"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 1"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "009"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 77"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "010"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 77"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "011"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 77"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "012"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 77"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "013"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 77"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "014"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 77"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "015"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 77"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "016"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 77"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "019"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 77"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "020"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 77"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "023"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 77"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "024"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 77"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "025"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 77"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "026"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 77"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "027"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 77"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "028"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 77"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "029"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 77"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "SealNumber",
+                      "Xid": "030"
+                    }
+                  },
+                  "ShipmentRefnumValue": "SEAL 77"
+                },
+                {
+                  "ShipmentRefnumQualifierGid": {
+                    "Gid": {
+                      "DomainName": "ShippersOrder",
+                      "Xid": "008"
+                    }
+                  },
+                  "ShipmentRefnumValue": "563285"
+                }
+              ],
+              "TransactionCode": "NP",
+              "InternalShipmentStatus": {
+                "StatusTypeGid": {
+                  "Gid": {
+                    "DomainName": "TPS",
+                    "Xid": "DRIVER_SHIPMENT_STATUS"
+                  }
+                },
+                "StatusValueGid": {
+                  "Gid": {
+                    "DomainName": "TPS",
+                    "Xid": "COMPLETED"
+                  }
+                }
+              },
+              "TotalWeightVolume": {
+                "WeightVolume": {
+                  "Weight": {
+                    "WeightValue": "212",
+                    "WeightUOMGid": {
+                      "Gid": {
+                        "DomainName": "TPS",
+                        "Xid": "POUNDS"
+                      }
+                    }
+                  },
+                  "Volume": {
+                    "VolumeUOMGid": {
+                      "Gid": { "DomainName": "TPS" }
+                    }
+                  }
+                }
+              },
+              "TotalShipUnitCount": "1",
+              "TotalPackagedItemCount": "8000",
+              "InvolvedParty": {
+                "InvolvedPartyQualifierGid": {
+                  "Gid": {
+                    "DomainName": "TPS",
+                    "Xid": "SHIPPER"
+                  }
+                },
+                "InvolvedPartyLocationRef": {
+                  "LocationRef": {
+                    "Location": {
+                      "TransactionCode": "NP",
+                      "LocationGid": {
+                        "Gid": { "DomainName": "TPS" }
+                      },
+                      "LocationName": "A A K TRANSPORTATION INC",
+                      "Address": {
+                        "AddressLine2": "75 MARIETTA ST",
+                        "City": "ATLANTA",
+                        "Province": "GEORGIA",
+                        "ProvinceCode": "GA",
+                        "PostalCode": "303032883",
+                        "CountryCode3Gid": {
+                          "Gid": {
+                            "DomainName": "TPS",
+                            "Xid": "USA"
+                          }
+                        }
+                      },
+                      "Contact": {
+                        "ContactGid": {
+                          "Gid": { "DomainName": "TPS" }
+                        },
+                        "CompanyName": "A A K TRANSPORTATION INC"
+                      }
+                    }
+                  }
+                }
+              },
+              "ShipmentSpecialService": {
+                "SpecialServiceGid": {
+                  "Gid": {
+                    "DomainName": "TPS",
+                    "Xid": "DROP"
+                  }
+                }
+              },
+              "Remark": [
+                {
+                  "RemarkQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "SEGMENT_TYPE"
+                    }
+                  },
+                  "RemarkText": "ODR"
+                },
+                {
+                  "RemarkQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "DISPATCH_REMARKS"
+                    }
+                  },
+                  "RemarkText": "Eqp Loc: A & F TRANSPORTATION, 2729 W WASHINGTON BLVD, CHICAGO,  IL"
+                }
+              ],
+              "VoyageGid": {
+                "Gid": { "DomainName": "TPS" }
+              },
+              "BookingInfo": {
+                "RailDt": { "GLogDate": "20160522163000" }
+              },
+              "DriverGid": {
+                "Gid": {
+                  "DomainName": "TPS",
+                  "Xid": "1178"
+                }
+              }
+            },
+            "SEquipment": {
+              "SEquipmentGid": {
+                "Gid": {
+                  "DomainName": "TPS",
+                  "Xid": "HUBJ562341"
+                }
+              },
+              "Equipment": {
+                "EquipmentGid": {
+                  "Gid": {
+                    "DomainName": "TPS",
+                    "Xid": "HUBJ562341"
+                  }
+                },
+                "TransactionCode": "NP",
+                "EquipmentAttribute": [
+                  {
+                    "EquipmentAttributeQualifierGid": {
+                      "Gid": {
+                        "DomainName": "TPS",
+                        "Xid": "GPS_ENABLED"
+                      }
+                    },
+                    "EquipmentAttributeValue": "FALSE"
+                  },
+                  {
+                    "EquipmentAttributeQualifierGid": {
+                      "Gid": {
+                        "DomainName": "TPS",
+                        "Xid": "LATITUDE"
+                      }
+                    },
+                    "EquipmentAttributeValue": "41.8826260"
+                  },
+                  {
+                    "EquipmentAttributeQualifierGid": {
+                      "Gid": {
+                        "DomainName": "TPS",
+                        "Xid": "LONGITUDE"
+                      }
+                    },
+                    "EquipmentAttributeValue": "-87.6950830"
+                  }
+                ]
+              },
+              "EquipmentType": {
+                "EquipmentTypeGid": {
+                  "Gid": {
+                    "DomainName": "TPS",
+                    "Xid": "CONTAINER"
+                  }
+                },
+                "ExteriorLWH": {
+                  "Length": {
+                    "LengthValue": "53.00",
+                    "LengthUOMGid": {
+                      "Gid": {
+                        "DomainName": "TPS",
+                        "Xid": "FEET"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "ShipmentStop": [
+              {
+                "StopSequence": "1",
+                "ExtStopSequence": "1",
+                "LocationRef": {
+                  "Location": {
+                    "TransactionCode": "NP",
+                    "LocationGid": {
+                      "Gid": {
+                        "DomainName": "TPS",
+                        "Xid": "A & F TRANSPORTATION INC"
+                      }
+                    },
+                    "LocationName": "A & F TRANSPORTATION INC",
+                    "Address": {
+                      "AddressLine1": "UNIT1",
+                      "AddressLine2": "2729 W WASHINGTON BLVD",
+                      "City": "CHICAGO",
+                      "Province": "ILLINOIS",
+                      "ProvinceCode": "IL",
+                      "PostalCode": "606122031",
+                      "CountryCode3Gid": {
+                        "Gid": {
+                          "DomainName": "TPS",
+                          "Xid": "USA"
+                        }
+                      },
+                      "Latitude": "41.8826260",
+                      "Longitude": "-87.6950830"
+                    },
+                    "Contact": {
+                      "ContactGid": {
+                        "Gid": { "DomainName": "TPS" }
+                      }
+                    }
+                  }
+                },
+                "VoyageGid": {
+                  "Gid": { "DomainName": "TPS" }
+                },
+                "ShipmentStopDetail": {
+                  "Activity": "P",
+                  "ShipUnitGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "1"
+                    }
+                  }
+                },
+                "Refnum": [
+                  {
+                    "RefnumQualifierGid": {
+                      "Gid": {
+                        "DomainName": "BMBillOfLadingNumber",
+                        "Xid": "004"
+                      }
+                    },
+                    "RefnumValue": "84652_34"
+                  },
+                  {
+                    "RefnumQualifierGid": {
+                      "Gid": {
+                        "DomainName": "SealNumber",
+                        "Xid": "017"
+                      }
+                    },
+                    "RefnumValue": "S80652-1"
+                  },
+                  {
+                    "RefnumQualifierGid": {
+                      "Gid": {
+                        "DomainName": "SealNumber",
+                        "Xid": "018"
+                      }
+                    },
+                    "RefnumValue": "S84"
+                  },
+                  {
+                    "RefnumQualifierGid": {
+                      "Gid": {
+                        "DomainName": "TheftDeterrentDeviceNumber",
+                        "Xid": "021"
+                      }
+                    },
+                    "RefnumValue": "TD2"
+                  },
+                  {
+                    "RefnumQualifierGid": {
+                      "Gid": {
+                        "DomainName": "TheftDeterrentDeviceNumber",
+                        "Xid": "022"
+                      }
+                    },
+                    "RefnumValue": "TD1"
+                  }
+                ],
+                "Appointment": {
+                  "AppointmentInfo": {
+                    "LocationResourceGid": {
+                      "Gid": { "DomainName": "TPS" }
+                    },
+                    "StartTime": { "GLogDate": "20160522000000" },
+                    "EndTime": {
+                      
+                    }
+                  }
+                },
+                "StopType": "PICKUP"
+              },
+              {
+                "StopSequence": "3",
+                "ExtStopSequence": "2",
+                "LocationRef": {
+                  "Location": {
+                    "TransactionCode": "NP",
+                    "LocationGid": {
+                      "Gid": {
+                        "DomainName": "TPS",
+                        "Xid": "NORFOLK SOUTHERN RAILWAY COMPA"
+                      }
+                    },
+                    "LocationName": "NORFOLK SOUTHERN RAILWAY COMPA",
+                    "Address": {
+                      "AddressLine2": "2040 E 106TH ST",
+                      "City": "CHICAGO",
+                      "Province": "ILLINOIS",
+                      "ProvinceCode": "IL",
+                      "PostalCode": "606176455",
+                      "CountryCode3Gid": {
+                        "Gid": {
+                          "DomainName": "TPS",
+                          "Xid": "USA"
+                        }
+                      },
+                      "Latitude": "41.7035178",
+                      "Longitude": "-87.5712812"
+                    },
+                    "Contact": {
+                      "ContactGid": {
+                        "Gid": { "DomainName": "TPS" }
+                      }
+                    }
+                  }
+                },
+                "VoyageGid": {
+                  "Gid": { "DomainName": "TPS" }
+                },
+                "ShipmentStopDetail": {
+                  "Activity": "D",
+                  "ShipUnitGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "3"
+                    }
+                  }
+                },
+                "Refnum": [
+                  {
+                    "RefnumQualifierGid": {
+                      "Gid": {
+                        "DomainName": "SealNumber",
+                        "Xid": "000"
+                      }
+                    },
+                    "RefnumValue": "SEAL 1"
+                  },
+                  {
+                    "RefnumQualifierGid": {
+                      "Gid": {
+                        "DomainName": "BMBillOfLadingNumber",
+                        "Xid": "000"
+                      }
+                    },
+                    "RefnumValue": "985"
+                  }
+                ],
+                "Appointment": {
+                  "AppointmentInfo": {
+                    "LocationResourceGid": {
+                      "Gid": { "DomainName": "TPS" }
+                    },
+                    "StartTime": {
+                      
+                    },
+                    "EndTime": {
+                      
+                    }
+                  }
+                },
+                "StopType": "DELIVERY"
+              }
+            ],
+            "SShipUnit": [
+              {
+                "TransactionCode": "NP",
+                "ShipUnit": {
+                  "ShipUnitGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "1"
+                    }
+                  },
+                  "WeightVolume": {
+                    "Weight": {
+                      "WeightValue": "212",
+                      "WeightUOMGid": {
+                        "Gid": {
+                          "DomainName": "TPS",
+                          "Xid": "POUNDS"
+                        }
+                      }
+                    },
+                    "Volume": {
+                      "VolumeUOMGid": {
+                        "Gid": { "DomainName": "TPS" }
+                      }
+                    }
+                  },
+                  "ShipUnitContent": { "PackagedItemSpecCount": "8000" },
+                  "FlexCommodityQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "3071145"
+                    }
+                  },
+                  "FlexCommodityValue": "HSEWARES,SYPL",
+                  "ShipUnitCount": "8000"
+                }
+              },
+              {
+                "TransactionCode": "NP",
+                "ShipUnit": {
+                  "ShipUnitGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "3"
+                    }
+                  },
+                  "WeightVolume": {
+                    "Weight": {
+                      "WeightValue": "212",
+                      "WeightUOMGid": {
+                        "Gid": {
+                          "DomainName": "TPS",
+                          "Xid": "POUNDS"
+                        }
+                      }
+                    },
+                    "Volume": {
+                      "VolumeUOMGid": {
+                        "Gid": { "DomainName": "TPS" }
+                      }
+                    }
+                  },
+                  "ShipUnitContent": { "PackagedItemSpecCount": "8000" },
+                  "FlexCommodityQualifierGid": {
+                    "Gid": {
+                      "DomainName": "TPS",
+                      "Xid": "3071145"
+                    }
+                  },
+                  "FlexCommodityValue": "HSEWARES,SYPL",
+                  "ShipUnitCount": "8000"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
